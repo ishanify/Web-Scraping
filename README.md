@@ -14,5 +14,11 @@ These links cannot be used directly by your script and read HTML. One way to sol
 ###  <a href='https://pypi.python.org/pypi/selenium'> Selenium</a> can be a life saver
 The Selenium package is used to automate web browser interaction from Python. With Selenium, programming a Python script to automate a web browser is possible. Afterwards, those pesky JavaScript links are no longer an issue. Selenium can start a web browser and perform further steps. I have used Firefox.
 
-### Expectations from our web scraper before starting to code
-I have scraped all the search results from this <a href="https://www.securities-administrators.ca/nrs/nrsIndvSearchResults.aspx?mode=AS&type=I&indv=&firm=&juri=ON&ctgy=1&history=0"> Webpage. </a>
+### Objective of this scraper
+To scrape all the search results from this <a href="https://www.securities-administrators.ca/nrs/nrsIndvSearchResults.aspx?mode=AS&type=I&indv=&firm=&juri=ON&ctgy=1&history=0"> Webpage. </a>
+Get Name, Firm Name and Firm address details in a CSV.
+
+### Conclusion and Output
+My Python (code)[/webscrap_csa.md] scrapes all the information and creates multiple csv files because the data volume is high and also this helps if an error is encountered. Each output CSV file contains 10000 records.
+This completes the data extraction process. This process can be extended further to Transform and clean the data for example splitting the address column into Street Address, Phone number, Province etc. Then this clean structured data can be loaded into some other Databases. This process is called <strong>ETL</strong> i.e. <strong> Extract - Transform - Load</strong>.
+
