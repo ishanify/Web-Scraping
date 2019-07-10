@@ -15,4 +15,4 @@ These links cannot be used directly by your script and read HTML. One way to sol
 The Selenium package is used to automate web browser interaction from Python. With Selenium, programming a Python script to automate a web browser is possible. Afterwards, those pesky JavaScript links are no longer an issue. Selenium can start a web browser and perform further steps. I have used Firefox.
 
 ### Expectations from our web scraper before starting to code
-As an example we are going to scrape this <a href="https://www.securities-administrators.ca/nrs/nrsIndvSearchResults.aspx?mode=AS&type=I&indv=&firm=&juri=ON&ctgy=1&history=0"> Website </a>
+I have scraped all the search results from this <a href="https://www.securities-administrators.ca/nrs/nrsIndvSearchResults.aspx?mode=AS&type=I&indv=&firm=&juri=ON&ctgy=1&history=0"> Webpage. </a>
