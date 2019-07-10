@@ -1,6 +1,6 @@
 
-# Web scraping using in Python, Selenium (navigating javascript dynamic pages & links)
-
+# Web scraping using Python, Selenium (navigating javascript dynamic pages & links)
+[Click here for Readme and read more details about the process](/README.md)
 ```python
 
 from selenium import webdriver
