@@ -20,5 +20,5 @@ Get Name, Firm Name and Firm address details in a CSV.
 
 ### Conclusion and Output
 My [Python code](/webscrap_CSA.md) scrapes all the information and creates multiple csv files because the data volume is high and also this helps if an error is encountered. Each output CSV file contains 10000 records.
-This completes the data extraction process. This process can be extended further to Transform and clean the data for example splitting the address column into Street Address, Phone number, Province etc. Then this clean structured data can be loaded into some other Databases. This process is called <strong>ETL</strong> i.e. <strong> Extract - Transform - Load</strong>.
+This completes the data extraction process. This process can be extended further to Transform and clean the data for example splitting the address column into Street Address, Phone number, Province etc. Then this clean structured data can be loaded into some other Databases. This process is called <strong>ETL</strong> i.e. <strong> Extract - Transform - Load</strong>..
 
