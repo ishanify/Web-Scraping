@@ -17,8 +17,8 @@ The Selenium package is used to automate web browser interaction from Python. Wi
 ### Objective of this scraper
 To scrape all the search results from this <a href="https://www.securities-administrators.ca/nrs/nrsIndvSearchResults.aspx?mode=AS&type=I&indv=&firm=&juri=ON&ctgy=1&history=0"> Webpage. </a>
 Get Name, Firm Name and Firm address details in a CSV. Some screenshots from the webpage that show exactly what we are trying to extract.
-(/img/CSA_1.png)
-(/img/CSA_2.png)
+[[/img/CSA_1.png]]
+![aa](img/CSA_2.png)
 
 ### Conclusion and Output
 My [Python code](/webscrap_CSA.md) scrapes all the information and creates multiple csv files because the data volume is high and also this helps if an error is encountered. Each output CSV file contains 10000 records.
